@@ -139,6 +139,7 @@ term* attach(term* D, int* avail_D, int coef_attach, int expo_attach)
    {
       D[*avail_D].coef = coef_attach;
       D[*avail_D].expo = expo_attach;
+      
       (*avail_D)++;
       return D;
    }
